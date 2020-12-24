@@ -1,0 +1,127 @@
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  color:#66BFBF;
+  font-size:5.625rem;
+  font-family: 'Sacramento', cursive;
+  font-weight: bold;
+  margin-top: 50px;
+}
+h2{
+  color:#66BFBF;
+  font-size: 2.187rem;
+  font-family: 'Montserrat', sans-serif;
+}
+h3{
+    color:#66BFBF;
+}
+
+hr {
+  		border-style: dotted;
+  		border-color:#ABE3C8;
+  		border-width: 15px;
+  		border-bottom: none;
+  		margin: 100px auto;
+ 		   width: 6%;
+	}
+
+a{
+  text-decoration: none;
+  color: white;
+  margin: 15px 20px;
+}
+
+p{
+  font-size: 1rem;
+  line-height: 2;
+}
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+  margin:100px 0px;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 2rem;
+}
+
+.top-cloud{
+  position: absolute;
+  right:300px;
+  top: 50px;
+}
+.middle-cloud {
+  position: absolute;
+  top: 450px;
+  right: 200px;
+}
+.bottom-cloud{
+  position: absolute;
+  left:280px;
+  bottom: 270px;
+}
+.intro{
+  width: 50%;
+  margin: auto;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 150px auto;
+  text-align: left;
+
+}
+
+.code-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.basketball-img{
+  width: 25%;
+  float:right;
+  margin-left: 30px;
+}
+
+.contact-message{
+  width: 50%;
+  margin: 40px auto 60px; /*top- left and right - bottom*/
+}
+
+.btn {
+  display: inline-block;
+  background-color:#11CDD4;
+  text-decoration: none;
+  color: white;
+  padding: .8rem 1rem;
+  border-radius: 5%;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.contact-me__heading{
+  width: 55%;
+  margin: auto;
+}
+
+.footer-link:hover{
+  border-bottom-style:solid;
+  border-color:#ABE3C8;
+  border-width: 3px;
+}
+.copyright{
+  margin-top: 1rem;
+  font-size: .65rem;
+  color: white;
+  letter-spacing: .20rem;
+}
