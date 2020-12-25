@@ -1,0 +1,156 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Montserrat-Bold";
+}
+p {
+  color: #8f8f8f;
+}
+
+
+/* Heading */
+.big-heading{
+  font-family: "Montserrat-Black";
+  font-size:4rem;
+  line-height: 1.5;
+}
+.section-heading{
+  font-size:3rem;
+  line-height: 1.5;
+}
+.feature-title{
+    font-size: 1.5rem;
+}
+.cta-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding:3% 15%;
+}
+/* Title section */
+
+/* Nav Bar */
+.navbar {
+  padding:0 0 4rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 3rem;
+}
+.nav-item{
+    padding: 0 10px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Title Button */
+.button-dowland {
+  margin: 5% 3% 5% 0%;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+/* Title İmage */
+.title-image{
+  width: 55%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 22%;
+
+}
+/* features */
+#features {
+  padding: 10% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.features-box {
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color:#ff4c68;
+
+}
+/*
+testimonials section */
+
+#testimonials {
+  padding: 7% 15%;
+  background-color:  #ef8172;
+  color: #fff;
+}
+.testimonial-text{
+  font-size:3rem;
+  line-height: 1.5;
+}
+.testimonial-image {
+  width:15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press {
+background-color: #ef8172;
+padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px;
+}
+/* Pricing */
+
+ #pricing {
+   padding :100px ;
+ }
+ .price-text {
+   font-size:3rem;
+   line-height: 1.5;
+ }
+.pricing-column {
+  padding: 3% 2%
+}
+@media (max-width: 1028px) {
+
+  h1{
+    font-family: "Montserrat-Black;";
+    font-size:3rem;
+    line-height: 1.5;
+  }
+
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    width: 55%;
+    position: static;
+    transform: rotate(0);
+    margin: 15px 10px;
+  }
+}
+/* footersection */
+#cta {
+  background-color:#ff4c68;
+  padding: 7% 15%;
+  color: #fff;
+}
+
+#footer{
+
+  padding: 7% 10%;
+  background-color: #fff;
+}
+.social-icon {
+  margin: 20px 15px;
+}
