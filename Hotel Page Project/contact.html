@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "decription" content="The hotel extraordinally in Cluj-Napoca.">
+    <meta name="keywords" content="hotels,cluj-napoca,romania,chepast hotel">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 767px)" href="css/mobile.css">
+
+    <script src="https://kit.fontawesome.com/a01fc43c25.js" crossorigin="anonymous"></script>
+
+
+   
+    <title>Hotel CN | Welcome </title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo"><a href="index.html">HCN</a></h1>
+                <ul>
+                    <li><a  href="index.html">Home</a></li>
+                    <li><a  href="about.html">About</a></li>
+                    <li><a  class="current" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="contact-form" class="py-3">
+      <div class="container">
+        <h1 class="l-heading"><span class="text-primary">Contact</span> Us</h1>
+        <p>Please fill out the form below to contact us!</p>
+        <form action="process.php">
+          <div class="form-group">
+             <label for="clientName">Name</label>
+             <input type="text" name="clientName" id="clientName">
+          </div>
+          <div class="form-group">
+             <label for="clientEmail">Email</label>
+             <input type="email" name="clientEmail" id="clientEmail">
+          </div>
+          <div class="form-group">
+            <label for="clientMessage">Message</label>
+            <textarea name="clientMessage" id="clientMessage"></textarea>
+          </div>
+          <button type="submit"  class="btn form-button">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="contact-info" class="bg-dark">
+      <div class="container">
+        <div class="box">
+          <i class="fas fa-hotel fa-3x"></i>
+          <h2>Location</h2>
+          <p>Observatarului La Camin Cluj-Napoca Romania</p>
+      </div>
+     
+      <div class="box">
+          <i class="fas fa-phone fa-3x"></i>
+          <h2>Phone Nummber</h2>
+          <p>(+90) 123-456 9157</p>
+      </div>
+     
+      <div class="box">
+        <i class="fas fa-envelope fa-3x"></i>
+          <h2>Email Address</h2>
+          <p>bayoglubatuhan@gmail.com</p>
+      </div>
+
+      </div>
+    </section>
+
+ 
+
+    <div class="clr"></div>
+    <footer id="main-footer" class="bg-dark">
+        <p>Hotel HCN &copy; Bayoglu</p>
+
+    </footer>
+</body>
+</html>
