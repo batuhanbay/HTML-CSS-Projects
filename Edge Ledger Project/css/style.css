@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Open Sans' , sans-serif;
+  background: #ffffff;
+  color: #333333;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;/*to ged rid of bullets*/
+}
+
+a {
+  color: #333333;
+  text-decoration: none;/*to ged rid of underline*/
+}
+
+h1,h2,h3 {
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+p {
+  margin: 10px 0;
+}
+
+img {
+  width: 100%;
+}
+
+
+/*Navbar*/
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333333;
+  color: #ffffff;
+  opacity: 0.8;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0px;
+  padding: 0 30px;
+  transition:0.5s;
+}
+.navbar.top {
+  background: transparent;
+}
+.navbar a {
+  color: #ffffff;
+  padding: 10px 20px;
+  margin: 0 5px;
+}
+.navbar a:hover {
+  border-bottom: #28a745 2px solid;
+}
+
+.navbar ul {
+  display: flex;
+}
+.logo {
+  font-weight: 300;
+}
+
+/*Header*/
+
+.hero {
+  background: url('../images/showcase.jpg') no-repeat center center/cover;
+  height: 100vh;
+  position:relative;
+  color: #ffffff;
+}
+
+.hero .content {
+  display: flex;
+  flex-direction: column;
+  align-items:center;/*align-items is for cross axess*/
+  justify-content:center;/* justify-content is for main axess*/
+  text-align:center;
+  height: 100%;
+  padding:0 20px;
+}
+
+.hero .content h1 {
+  font-size: 55px;
+}
+
+.hero .content p {
+  font-size: 23px;
+  max-width: 600px;
+  margin: 20px 0 30px; 
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero * {
+  z-index: 1;
+}
+
+/*Icons*/
+
+.icons {
+  padding: 30px;
+}
+
+.icons h3 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.icons i {
+  background: #28a745;
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+/*Cases*/
+
+.cases img:hover {
+  opacity: 0.8;
+}
+
+/*Team*/
+
+.team img{
+  border-radius: 50%;
+}
+
+/*Callback form*/
+
+.callback-form {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.callback-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+.callback-form .form-control {
+  margin-bottom: 15px;
+}
+
+.callback-form input {
+  width: 100%;
+  padding: 4px;
+  height: 40px;
+  border: #444444 1px solid;
+}
+.callback-form input:focus {
+outline-color: #28a745;
+}
+.callback-form .btn {
+  padding: 15px 0;
+  margin-top: 20px;
+}
+
+/*Footer*/
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+
+}
+.footer a {
+  color: #ffffff;
+}
+
+.footer a:hover {
+
+  color: #28a745;
+}
+
+.footer .social > * {
+  margin-right: 30px;
+ 
+}
+
+/*Mobile*/
+
+@media(max-width: 767px) {
+  .navbar {
+    flex-direction: column;
+    height: 120px;
+    padding: 15px;
+  }
+  .navbar a {
+    padding: 10px 5px;
+    margin:0 1px;
+  }
+  .flex-items {
+    flex-direction: column;
+  }
+
+  .flex-columns .column,
+  .flex-grid .column {
+    flex: 100%;
+    max-width: 100%;
+  
+  }
+
+}
