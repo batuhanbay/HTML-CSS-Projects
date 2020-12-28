@@ -1,0 +1,71 @@
+.popup{
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba($color-dark, .9);
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  animation: all .4s;
+ 
+  &__box{
+    width: 75%;
+    background-color: $color-white;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9999;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+  }
+ 
+  &__images{
+  
+    img{
+      width: 100%;
+      display:block;
+    }
+  }
+  &__container{
+    grid-column: 2/ span 2;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    padding: 1rem 2rem;
+  }
+  &__content{
+    column-count: 2;
+    column-gap: 2rem;
+    column-rule: 2px solid $color-grey-dark-light-2;
+  }
+  //Open State
+  &:target{
+    opacity: 1;
+    visibility: visible;
+  }
+  //Close State
+  &__close{
+    &:visited,
+    &:link {
+      position: absolute;
+      top: 2.5rem;
+      right: 2.5rem;
+      display: inline-block;
+      color: $color-dark;
+      font-size: 3rem;
+      text-decoration: none;
+      transition: all .3s;
+    }
+
+    &:hover,
+    &:active{
+      color: $color-primary-dark;
+    }
+  }
+ 
+}

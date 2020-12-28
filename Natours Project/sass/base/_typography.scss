@@ -1,0 +1,60 @@
+body {
+  font-family: "Lato" ,sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  padding: 30px;
+}
+
+.heading-primary{
+  color:$color-white;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+
+  &--main {
+    display:block;
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 35px;
+    animation: moveInLeft 1s ease-out; 
+  }
+  
+  &--sub {
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 17.4px;
+    animation: moveInRight 1s ease-in-out; 
+  }
+  
+}
+
+.heading-secondary{
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  font-weight: 700;
+  display: inline-block;
+  background-image:linear-gradient(to right,$color-primary-light, $color-primary-dark);
+  -webkit-background-clip: text;
+  color:transparent;
+  transition: all .2s;
+
+   &:hover{
+    transform: skewY(2deg) skewX(1deg);
+    text-shadow: .5rem 1rem 2rem rgba($color-dark, .2);
+  }
+}
+
+.heading-tertiary{
+  font-size: $default-font-size;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.paragraph{
+  font-size: $default-font-size;
+  font-weight: 400;
+  &:not(:last-child){
+    margin-bottom: 3rem;
+  }
+}
