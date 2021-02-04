@@ -1,0 +1,126 @@
+/*Navigation*/
+#main-nav .nav-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center ;
+  padding: 1rem;
+}
+
+#main-nav .nav-container .social {
+  display: none;
+}
+
+#main-nav .nav-container ul{
+  margin-top: 1rem;
+}
+
+#main-nav ul,
+#main-mav .logo {
+  justify-self: center;
+}
+
+#main-nav ul li a {
+  padding: 0.5rem;
+} 
+
+/*Article Grid*/ 
+#home-articles .article-container {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+#home-articles .article-container > *:first-child,
+ #home-articles .article-container > *:last-child {
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-column: 1;
+ }
+
+ @media(max-width:600px) {
+   /*Utility*/ 
+
+   .container {
+    padding: 0 1rem;
+  
+    max-width: 600px;
+  }
+
+  .card {
+    padding: 0.7rem;
+  }
+
+   /*Home Page-Stack Grid İtems*/
+   #showcase {
+     height: 90vh;
+   }
+   #showcase .showcase-container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+   }
+   #showcase .showcase-container > *:first-child {
+     margin-top: 2.5rem;
+   }
+
+   /*HomePage-Article Grid*/
+   #home-articles .article-container {
+    display: grid;
+    grid-template-columns:1fr;
+    grid-gap: 1rem;
+  }
+  
+   #home-articles .article-container > *:first-child,
+   #home-articles .article-container > *:last-child {
+   display: grid;
+   grid-template-columns:1 ;
+   grid-column: 1;
+ }
+ /*AboutPage - Page Container*/
+  .page-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 2rem 0;
+  grid-gap: 1.5rem;
+  }
+  .page-container > *:first-child {
+  grid-row: 1;
+  }
+
+  .l-heading {
+    font-size: 1.7rem;
+  }
+  /*ArticlePAge-Card-Meta*/
+  .card .meta {
+    display: flex;
+    flex-direction: column;
+    background: #eeeeee;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border-style: none 1px solid;
+  }
+
+  /*Footer*/
+
+  #main-footer .footer-container {
+    display: grid;
+    grid-template-columns:1fr;
+    grid-gap: 1rem;
+    text-align: center;
+  }
+
+  #main-footer .footer-container >*:last-child {
+    grid-column: 1;
+  }
+  #main-footer .footer-container >*:first-child,
+  #main-footer .footer-container >*:nth-child(2) {
+    border-bottom: #555555 dotted 1.4px ;
+    width: 90%;
+    padding-bottom: 0.5rem;  
+  }
+  
+ }
+
