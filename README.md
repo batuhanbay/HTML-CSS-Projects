@@ -19,3 +19,11 @@ Main goal is:
 
 https://batuhanbay.github.io/HTML-CSS-Projects/Perosnal%20Site%202%20Project/
 
+## 03 - Tindog Project
+
+Project that made me progress on layout of page to develop. I mostly focus on layout section of bootsraap for building responsive and a template starter page.Besides, I have practised more on HTML and CSS.
+
+Main goal is:
+- Learning Bootstrap.
+
+https://batuhanbay.github.io/HTML-CSS-Projects/Tindog%20Project/
