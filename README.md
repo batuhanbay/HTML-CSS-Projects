@@ -8,3 +8,14 @@ Main goal is:
 - Practicing CSS with HTML
 
 https://batuhanbay.github.io/HTML-CSS-Projects/Personal%20Site%20Project/
+
+## 02 - Perosnal Site v2 Project
+
+This project is version 2 of Personal Site Project. On this project, I have learnt about more making good structure of HTML and more detailed CSS features in order to get good looks website. For this goal,I have made practice and learnt with  CSS Display Property, CSS Positioning, Font Styling, CSS Sizing, Font Properties, The Box Model of Website Styling ect.
+
+Main goal is:
+- Practicing with HTML Divs.
+- Learning More About Web Design
+
+https://batuhanbay.github.io/HTML-CSS-Projects/Perosnal%20Site%202%20Project/
+
