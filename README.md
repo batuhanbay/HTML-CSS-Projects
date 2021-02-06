@@ -27,3 +27,17 @@ Main goal is:
 - Learning Bootstrap.
 
 https://batuhanbay.github.io/HTML-CSS-Projects/Tindog%20Project/
+
+## 04 - Hotel Page Project
+
+This project has been builded for learning more float and aligments besides HTML basics and CSS basics. Moreover, That project involves multipage.Therefore,I focus on also responsive layout by using Media Queries and responsive units(rem,Vw).
+
+Main goal is:
+- Learning float and aligments.
+- Integrity of Multipage
+- Learning Media Queries and responsive units
+
+https://batuhanbay.github.io/HTML-CSS-Projects/Hotel%20Page%20Project/index.html
+
+
+
