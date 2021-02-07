@@ -9,7 +9,7 @@ Main goal is:
 
 https://batuhanbay.github.io/HTML-CSS-Projects/Personal%20Site%20Project/
 
-## 02 - Perosnal Site v2 Project
+## 02 - Personal Site v2 Project
 
 This project is version 2 of Personal Site Project. On this project, I have learnt about more making good structure of HTML and more detailed CSS features in order to get good looks website. For this goal,I have made practice and learnt with  CSS Display Property, CSS Positioning, Font Styling, CSS Sizing, Font Properties, The Box Model of Website Styling ect.
 
@@ -39,5 +39,28 @@ Main goal is:
 
 https://batuhanbay.github.io/HTML-CSS-Projects/Hotel%20Page%20Project/index.html
 
+## 05 - EdgeLedger web page
+
+I focused full of CSS with this project. This is nice project who wants to dive into CSS Flexbox and basics HTML elements. Only thing I used for styling is basic CSS. Also, I have used CSS variables and utilities to use some classes later on somewhere else.
+
+Main goal is:
+
+- Creating reusable classes.
+- Practicing variables with Css
+- Practicing CSS Flexbox
+
+https://batuhanbay.github.io/HTML-CSS-Projects/Edge%20Ledger%20Project/
+
+## 06 - News Web
+
+In this project I fully focused CSS Grid. I created template full of grids. It is great to understand this approach of CSS. It is a quite smoth project for this goal. Also I have practiced reusable classes in this project such as `.btn .primary`. If you want to learn and practice those features, you are welcome to take this example and move forward.
+
+Main goal is:
+
+- Creating reusable classes.
+- Practicing variables with Css
+- Practicing CSS Grid
+
+https://batuhanbay.github.io/HTML-CSS-Projects/NewsGrid/
 
 
