@@ -51,7 +51,7 @@ Main goal is:
 
 https://batuhanbay.github.io/HTML-CSS-Projects/Edge%20Ledger%20Project/
 
-## 06 - News Web
+## 06 - NewsGrid
 
 In this project I fully focused CSS Grid. I created template full of grids. It is great to understand this approach of CSS. It is a quite smoth project for this goal. Also I have practiced reusable classes in this project such as `.btn .primary`. If you want to learn and practice those features, you are welcome to take this example and move forward.
 
