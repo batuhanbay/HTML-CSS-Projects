@@ -63,4 +63,14 @@ Main goal is:
 
 https://batuhanbay.github.io/HTML-CSS-Projects/NewsGrid/
 
+## 07 - Natours Project
 
+The project which is a landing page, has been builded for focusing CSS. I have learned on this project how CSS is powerfull by using  Sass and advance CSS features on this project. Moreover, There is not one line of Js code for any animation or other stuff on project.
+
+Main goal is:
+
+- Learning introduction to Sass and NPM.
+- Creating  CSS Animations 
+- Implementing the CSS Architecture with Sass
+
+https://batuhanbay.github.io/HTML-CSS-Projects/Natours%20Project/
